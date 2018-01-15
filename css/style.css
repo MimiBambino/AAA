@@ -283,6 +283,10 @@ button {
 	height: 150px;
 }
 
+.loan-list > li{
+	display: block;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1200px) {
@@ -302,7 +306,6 @@ button {
 
 @media screen and (max-width: 1000px) {
 	.main ul li{
-		margin-bottom: -20px;
 	}
 	.contact-list {
 		text-align: center;
