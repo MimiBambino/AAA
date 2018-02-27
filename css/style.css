@@ -267,6 +267,10 @@ text.verySmall {
 	clear: both;
 }
 
+#pa {
+	font-size: 0.8em;
+}
+
 button {
 	color: white;
 	background-color: #008cb0;
