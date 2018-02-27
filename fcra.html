@@ -13,110 +13,31 @@
     <link rel='stylesheet' href='css/style.css' type='text/css'></link>
     <link rel='shortcut icon' href='images/favicon.ico'/>
     <title>Fair Credit Reporting Act Litigation</title>
+        <script> 
+$(function(){
+  $("#header").load("header.html"); 
+  $("#footer").load("footer.html");
+  $("#circles").load("circles.html");
+});
+    </script> 
   </head>
     <body>
 <!--HEADER-->
 
     <!-- Fixed navbar -->
+    <div id="header"></div>
 
-    <nav class="navbar navbar-default navbar-fixed-top navbar-height">
-      <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="./index.html">
-            <div class="logo">
-            <p><span class="lawOffice"><span class="first">L</span>aw <span class="first">O</span>ffice of </span> <span class="name"> Cynthia O'Donnell</span></p>
-            </div>
-          </a>
-        </div>
-        <a href="./contact.html"><button id="contact-btn" class="btn">Schedule Consultation Now</button></a>
-      </div>
-    </nav>
 <!-- FCRA -->
       <div id="about" class="container main hidden">
         <div class="text-center">
 
 <!--Home view-->
       <div id="home" class='main text-center hidden'>
-<!-- Large Circles -->
+
         <a href="./contact.html"><button id="small-contact" class="btn">Schedule Consultation Now</button></a>
           <div class="spacer"></div>
-        <div id="large-circles" class="container svg-container secondary-page-circles">
-          <ul class='svg'>
-            <li>
-              <a href="./identity.html"><svg id="first-circle" fill="#008cb0" width="150" height="150">
-                <circle cx="75" cy="75" r="75"></circle>
-                <text class="smallCircles" x="40" y="68">Identity</text>
-                <text class="smallCircles" x="52" y="103">Theft</text>
-              </svg></a>
-            </li>
-            <li>
-              <a href="./fcra.html"><svg id="second-circle" class="gray" width="150" height="150">
-                <circle cx="75" cy="75" r="75"></circle>
-                <text class="smallCircles" x="25" y="68">Fair Credit</text>
-                <text class="smallCircles" x="30" y="103">Reporting</text>
-              </svg></a>
-            </li> 
-            <li>
-              <a href="./student.html"><svg id="third-circle" class="analgous" width="150" height="150">
-                <circle cx="75" cy="75" r="75"></circle>
-                <text class="smallCircles" x="38" y="68">Student</text>
-                <text class="smallCircles" x="48" y="103">Loans</text>
-              </svg></a>
-            </li>
-            <li>
-              <a href="./bankruptcy.html"><svg id="fourth-circle" width="150" height="150">
-                <circle cx="75" cy="75" r="75"></circle>
-                <text class="smallCircles" x="22" y="85">Bankruptcy</text>
-              </svg></a>
-            </li>
-            <li about-circle="About">
-              <a href="./about.html"><svg id="fifth-circle" width="150" height="150">
-                <circle cx="75" cy="75" r="75"></circle>
-                <text class="smallCircles" x="45" y="85">About</text>
-              </svg></a>
-            </li>
-          </ul>
-        </div>
-
-<!-- Small Circles -->
-
-        <div id="small-circles" class="container svg-container">
-          <ul class='svg'>
-            <li>
-              <a href="./identity.html"><svg id="first-circle" fill="#008cb0" width="130" height="130">
-                <circle cx="65" cy="65" r="65"></circle>
-                <text class="verySmall" x="32" y="58">Identity</text>
-                <text class="verySmall" x="44" y="88">Theft</text>
-              </svg></a>
-            </li>
-            <li>
-              <a href="./fcra.html"><svg id="second-circle" class="gray" width="130" height="130">
-                <circle cx="65" cy="65" r="65"></circle>
-                <text class="verySmall" x="17" y="58">Fair Credit</text>
-                <text class="verySmall" x="22" y="88">Reporting</text>
-              </svg></a>
-            </li> 
-            <li>
-              <a href="./student.html"><svg id="third-circle" class="analgous" width="130" height="130">
-                <circle cx="65" cy="65" r="65"></circle>
-                <text class="verySmall" x="30" y="58">Student</text>
-                <text class="verySmall" x="40" y="88">Loans</text>
-              </svg></a>
-            </li>
-            <li>
-              <a href="./bankruptcy.html"><svg id="fourth-circle" width="130" height="130">
-                <circle cx="65" cy="65" r="65"></circle>
-                <text class="verySmall" x="12" y="72">Bankruptcy</text>
-              </svg></a>
-            </li>
-            <li about-circle="About">
-              <a href="./about.html"><svg id="fifth-circle" width="130" height="130">
-                <circle cx="65" cy="65" r="65"></circle>
-                <text class="verySmall" x="37" y="72">About</text>
-              </svg></a>
-            </li>
-          </ul>
-        </div>
+<!--Circles-->
+<div id="circles"></div>
       </div>
         <h4 class="text-center"><span class="first">F</span>air <span class="first">C</span>redit <span class="first">R</span>eporting</h4>
         <div class="container spacer"></div>
@@ -144,11 +65,7 @@
       </div>
       <div class="end-spacer"></div>
 <!--FOOTER-->
-    <footer id="footer" class="footer text-center">
-      <div class="container">
-        <p class="text-muted">&copy; 2018 - Law Office of Cynthia O'Donnell, PA - P.O. Box 446 Tangerine, FL 32777 - <a href="tel:407-579-4493">407-579-4493</a></p>
-      </div>
-    </footer>
+    <div id="footer"></div>
   </body>
 </html>
 
