@@ -162,6 +162,10 @@ text {
 	font-family: "Kuenstler 165";
 }
 
+b > a {
+	color: #008cb0;
+}
+
 text.smallCircles {
 	font-size: 1.8em;
 }
