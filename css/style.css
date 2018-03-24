@@ -170,8 +170,9 @@ text {
 
 .outbound:hover {
 	text-decoration: none;
-	transition:background-color .3s ease-in;
-	/*background-color: #5ec2d0;*/
+	transition: background .3s ease-in;
+	color: #000;
+	background-color: #5ec2d0;
 }
 
 b > a {
