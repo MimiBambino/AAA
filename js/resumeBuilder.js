@@ -5,5 +5,5 @@ $(document).ready(function () {
 });
 
 $('a.outbound').hover(function() {
-	$(this).animate({backgroundColor: "#5ec2d0"}, 'slow');
+	$(this).animate({'background-color': "#5ec2d0"}, 'slow');
 });
