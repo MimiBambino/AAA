@@ -172,7 +172,7 @@ text {
 	text-decoration: none;
 	transition: background .3s ease-in;
 	color: #000;
-	background-color: #5ec2d0;
+	background: #5ec2d0;
 }
 
 b > a {
